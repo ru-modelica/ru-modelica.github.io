@@ -2,4 +2,9 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.bundle/
 vendor
+
+# To make local build possible on Ubuntu (with bundler version from the repo)
+# After all, the real build is performed by GitHub anyway (but results can slightly differ...)
+Gemfile.lock
